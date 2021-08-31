@@ -1,0 +1,275 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+*:focus{
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+/* ROOT */
+
+
+
+
+
+
+/* SECTION PAGE */
+.cam_section_container{
+    width: 100%;
+    text-align:center;
+}
+
+.title.cam_section_headline{
+    color: #9577df;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom:32px;
+}
+
+.subtitle.cam_section_tagline{
+    text-transform: capitalize;
+    font-size:28px;
+    font-weight: 500;
+    color: #464646;
+}
+
+.cam_section_description{
+    white-space:pre-line;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: -12px;
+}
+/* SECTION PAGE */
+
+
+
+
+
+
+
+/* NAVBAR */
+.navbar-item.cam_logo:before{
+    content: "\ec69";
+    font-family: "icofont";
+    font-size: 25px;
+    margin-right: 5px;
+    color: #6333d7;
+}
+
+.navbar-item.cam_logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #6333d7;
+}
+
+.navbar-item.cam_logo:after{
+    content: "";
+    width: 39px;
+    height: 2px;
+    left: 29%;
+    bottom: 29%;
+    background: #6333d7;
+    border-radius: 50px;
+    position: absolute;
+}
+
+a.navbar-item, .navbar-link {
+    cursor: pointer;
+    color: #999999;
+    font-weight: 500;
+    font-size:medium;
+    line-height: 1;
+}
+
+.button.cam_down_cta{
+    background-color: #6333d7;
+    border-color: transparent;
+    color: #fff;
+    padding: 25px 20px 25px 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+/* NAVBAR */
+
+
+
+
+
+
+
+/* HERO */
+.hero.is-fullheight.cam_hero{
+    background: url('../img/cam_hero_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero.is-fullheight .hero-body{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.tag.cam_tag_price{
+    background: #6333d7;
+    color:#fff;
+    border-radius: 0;
+    font-size:22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.title.cam_hero_headline{
+    color:#fff;
+    font-weight: 400;
+    font-size:46px;
+    line-height: 2;
+}
+
+.subtitle.cam_hero_tagline{
+    color:#fff;
+    font-size:15px;
+    line-height: 1.7;
+}
+/* HERO */
+
+
+
+/* Offer Products */
+.cam_offer_card_columns{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+.cam_offer_icon{
+    color:#626262;
+}
+
+.title.cam_offer_card_headline{
+    color: #626262;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.cam_offer_card_description{
+    font-weight: 500;
+    color: #999999;
+}
+/* Offer Products */
+
+/* Features Products */
+.cam_features_columns{
+    margin-top:40px; 
+    margin-bottom: 20px;
+}
+
+.title.cam_features_headline{
+    font-size:28px;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+
+.subtitle.cam_features_desc{
+    font-size:16px;
+    line-height: 1.5;
+}
+
+.title.cam_features_title{
+    color: #626262;
+    font-size:24px;
+}
+/* Features Products */
+
+
+/* Popular Products */
+.cam_popprod_card_columns{
+    margin-top:40px; 
+    margin-bottom: 20px;
+}
+
+.card.cam_popprod_card{
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgb(10 10 10 / 10%), 0 0 0 0 rgb(10 10 10 / 10%);
+}
+
+.cam_popular_image{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.title.cam_popprod_card_headline{
+    color: #626262;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.cam_popprod_card_description{
+    font-weight: 500;
+    color: #999999;
+}
+/* Popular Products */
+
+
+
+/* Recent Products */
+.cam_recprod_columns{
+    margin-top:30px; 
+    margin-bottom: 20px;
+}
+
+.title.cam_recprod_headline{
+    color: #626262;
+    line-height: 2.2;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subtitle.cam_recprod_price{
+    font-weight: 600;
+    font-size: 26px;
+    color: #6333d7;
+}
+
+.column.is-3{
+    padding:1.8rem;
+}
+/* Recent Products */
+
+
+
+/* Reviews */
+.hero.cam_reviews{
+    background: url('../img/level_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero.cam_reviews .hero-body{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.title.cam_reviews_title{
+    color:#6333d7;
+    font-size:26px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.heading.cam_reviews_heading{
+    color:#fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size:13px;
+}
+
+i.cam_reviews_icon{
+    color:#fff;
+    line-height: 1.6;
+}
+/* Reviews */
